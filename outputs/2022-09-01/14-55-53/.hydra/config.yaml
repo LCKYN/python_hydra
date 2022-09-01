@@ -1,0 +1,7 @@
+path:
+  path:
+    root: ../
+db:
+  driver: mysql
+  user: ???
+  pwd: ${hydra:runtime.cwd}/..

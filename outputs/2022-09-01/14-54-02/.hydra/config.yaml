@@ -1,0 +1,6 @@
+defualt:
+- path: path
+db:
+  driver: mysql
+  user: ???
+  pwd: ${hydra:runtime.cwd}/..

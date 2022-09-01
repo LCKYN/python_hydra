@@ -1,0 +1,7 @@
+defaults:
+  - path: path_
+  - _self_
+db:
+  driver: mysql
+  user: ???
+  pwd: ${hydra:runtime.cwd}/..
